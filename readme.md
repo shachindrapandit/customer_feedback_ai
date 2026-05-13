@@ -1,3 +1,15 @@
+Steps: 
+
+sudo apt update
+sudo apt install python3-virtualenv
+virtualenv myvenv
+source myvenv/bin/activate
+
+pip install -r requirements.txt
+
+python -m app.main
+
+
 1. What you built (big picture)
 
 * You built a Customer Feedback AI Analysis System that:
