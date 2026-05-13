@@ -1,0 +1,29 @@
+# ======================
+# Python cache
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ======================
+# Virtual environments
+# ======================
+myvenv/
+venv/
+.env/
+.venv/
+
+# ======================
+# Environment files (IMPORTANT)
+# ======================
+.env
+ABC_AZURE.env
+
+# ======================
+# IDE files
+# ======================
+.vscode/
+
+# pip bootstrap scripts
+get-pip.py
